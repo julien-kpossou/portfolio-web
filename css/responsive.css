@@ -24,7 +24,3 @@
   .footer__inner { flex-direction: column; gap: 12px; text-align: center; }
   .modal { max-width: 280px; }
 }
-
-@media (max-width: 960px) {
-  .hero__media { border-radius: 50%; border: 3px solid var(--avatar-ring); }
-}
