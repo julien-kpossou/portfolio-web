@@ -128,8 +128,5 @@
     openModal(successModal);
     form.reset();
   });
-
-  if (window.innerWidth <= 960) {
-  document.querySelector(".hero__media img").src = "assets/images/profil.png";
-  }
+  
 })();
