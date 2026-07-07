@@ -128,5 +128,4 @@
     openModal(successModal);
     form.reset();
   });
-  
 })();
