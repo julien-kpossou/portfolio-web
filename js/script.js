@@ -128,4 +128,19 @@
     openModal(successModal);
     form.reset();
   });
+
+  if (window.innerWidth <= 960) {
+  const img = document.querySelector(".hero__media img");
+  const images = [
+    "assets/images/profil.png",
+    "assets/images/dev-illustration.png"
+  ];
+
+  let i = 0;
+
+  setInterval(() => {
+    i = (i + 1) % images.length;
+    img.src = images[i];
+  }, 3000);
+  }
 })();
